@@ -14,7 +14,7 @@ file1 = st.sidebar.file_uploader('Inventory by location file in csv format')
 file2 = st.sidebar.file_uploader('Rx Revenue Performance in csv format')
 no = datetime.now()
 no = int(no.strftime("%m"))
-month = st.sidebar.number_input("Enter the month number:", min_value=1, max_value=10, value=no, step=1)
+month = st.sidebar.number_input("Enter the month number:", min_value=1, max_value=12, value=no, step=1)
 
 # @st.cache
 # def cycle_count():
